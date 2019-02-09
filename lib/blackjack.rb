@@ -56,5 +56,6 @@ def runner
   while total < 21
     total = hit(total)
     display_card_total
-
+  end
+end_game
 end
