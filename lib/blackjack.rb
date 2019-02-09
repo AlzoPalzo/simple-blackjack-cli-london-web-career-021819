@@ -6,8 +6,8 @@ def deal_card
   rand (1..11)
 end
 
-def display_card_total(num1, num2)
-  puts "Current total is #{num1 + num2}"
+def display_card_total(total)
+  puts "Current total is #{total}"
 end
 
 def prompt_user
