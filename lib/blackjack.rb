@@ -25,6 +25,7 @@ end
 def initial_round
   num1 = deal_card
   num2 = deal_card
+  num1 + num2
 end
 
 def hit?(num)
