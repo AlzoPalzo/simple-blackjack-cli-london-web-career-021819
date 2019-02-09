@@ -35,7 +35,7 @@ def hit?(num)
   if choice != "s" && choice != "h"
     invalid_command
   elsif choice = "s"
-    num 
+    num
   else
     num += deal_card()
   end
