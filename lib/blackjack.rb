@@ -36,10 +36,10 @@ def hit?(num)
     invalid_command
   elsif choice = h
     num += deal_card()
-  else 
+  else
     num
   end
-  
+
 end
 
 def invalid_command
