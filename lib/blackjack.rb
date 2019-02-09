@@ -32,7 +32,7 @@ end
 def hit?(num)
   prompt_user
   choice = get_user_input
-  if choice != "s" || choice != "h"
+  if choice != "s" && choice != "h"
     invalid_command
   end
 end
